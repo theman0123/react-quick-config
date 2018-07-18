@@ -1,0 +1,33 @@
+{
+  "name": "react-quick-config",
+  "version": "1.0.0",
+  "description": "a program that reads a config file and outputs a loosely structured react app",
+  "main": "cli.js",
+  "scripts": {
+    "test": "test"
+  },
+  "bin": {
+    "create-app": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theman0123/react-quick-config.git"
+  },
+  "keywords": [
+    "react",
+    "config",
+    "quick",
+    "map"
+  ],
+  "author": "spencer jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theman0123/react-quick-config/issues"
+  },
+  "homepage": "https://github.com/theman0123/react-quick-config#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "fs": "0.0.1-security",
+    "mkdirp": "^0.5.1"
+  }
+}
